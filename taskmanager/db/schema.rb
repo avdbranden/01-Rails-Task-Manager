@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20151124132057) do
     t.integer  "difficulty"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "comment"
   end
 
 end
